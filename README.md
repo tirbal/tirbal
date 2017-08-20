@@ -46,7 +46,7 @@ MrSunshine,MrSunshine,10,2,Marc,Marc
 
 [...]
 
------------------------------------------------------------------------------
+#### Records details - Nota Bene
 
 Note that the order of the player within a team doesn't matter.
 Hence the 2 following lines are equivalent :
