@@ -44,8 +44,8 @@ NB : last 3 lines of the example are equivalent
 ## Record accepted
  
 In order for a record to be accepted:
-* match must be 1v1 or 2v2. 1v2 record will be discarded.
-* all record players must have plaid in at least 2 different teams. The record will be discarded until this condition is met.
+* match must be 1v1 or 2v2. 1v2 records will be discarded.
+* all record players must have plaid in at least 2 different teams. Any record will be discarded until this condition is met.
 
 Example: admitting a new 2v2 record is being considered. This record will be taken into account if and only if each single player have already played in a 1v1 or in another 2v2 with a different team-mate. 
  
