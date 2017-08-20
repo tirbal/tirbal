@@ -18,12 +18,14 @@ It is based on :
 
 ## Input file formats accepted
 
-Input score file format must be .csv.
-It must contains records formatted as described below:
+Input score file format must be .csv
+
+It must contains a series of 1v1 and 2v2 records.
+Each record must be formatted as described below:
 
 team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2
 
-Ex:
+Example:
 
 Jobi,Joba,10,1,Harry,Dawg
 
@@ -43,7 +45,9 @@ NB : last 3 lines of the example are equivalent
  
 In order for a record to be accepted:
 * match must be 1v1 or 2v2. 1v2 record will be discarded.
-* all players must have plaid in at least 2 different teams. In other words, each players must have plaid in 2 different duo, or in 1 duo + 1 solo match. Otherwise the record will be discarded.
+* all record players must have plaid in at least 2 different teams. The record will be discarded until this condition is met.
+
+Example: admitting a new 2v2 record is being considered. This record will be taken into account if and only if each single player have already played in a 1v1 or in another 2v2 with a different team-mate. 
  
 ## History
  
