@@ -4,7 +4,7 @@ Tirbal is a table football rating algorithm.
 Though it could be used for any score-based 2v2 team game.
 
 It is based on : 
-* a (custom) modification of the classical ELO algorithm implementation
+* a (custom) adaptation of the classical ELO algorithm implementation
 * a (custom) mathematical regression model
 
  
