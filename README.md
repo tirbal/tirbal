@@ -28,6 +28,14 @@ Jobi,Joba,10,1,Harry,Dawg
 
 Marc,Samantha,0,10,MrSunshine,Dawg
 
+Marc,,2,10,MrSunshine,,
+
+Marc,Marc,2,10,MrSunshine,,
+
+Marc,Marc,2,10,MrSunshine,MrSunshine,
+
+(last 3 lines are equivalent)
+
 [...]
 
 ## Record accepted
