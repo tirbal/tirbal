@@ -59,8 +59,7 @@ public class TirbalLaunch {
 	 */
 	private static void launch(final CommandLine command) {
 		//
-		if (command.getOptionValue("help") != null
-				|| (command.getOptionValue("input") == null || command.getOptionValue("output") == null)) {
+		if (command.hasOption("help") || (command.getOptionValue("input") == null)) {
 			printHelp();
 		} else {
 			final TirbalLauncher tirbalLauncher = new TirbalLauncher(command.getOptionValue("input"),

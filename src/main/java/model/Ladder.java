@@ -90,7 +90,7 @@ public class Ladder extends IdentifiableObject {
 	public void init() {
 		// filter match results
 		this.filterMatchResults();
-		
+
 		//
 		if (this.matchResults.size() > 0) {
 			this.calculateTeamsElo();
@@ -167,7 +167,7 @@ public class Ladder extends IdentifiableObject {
 			logger.error("-------------------------------------------------------------\n");
 			logger.error("------------------------!BEWARE!-----------------------------\n");
 			logger.error(
-					"No individual ELO could be computed for this ladder. Remove match results where each player didn't play in at least 2 different teams.");
+					"No individual ELO could be computed for this ladder. Something must be singular about your data. Please, signal this issue on github.");
 			logger.error("Technical reason why individual ELO could not be computed : " + ex.getMessage());
 			logger.error("-------------------------------------------------------------\n");
 		}

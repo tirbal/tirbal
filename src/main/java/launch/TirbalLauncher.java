@@ -50,9 +50,11 @@ public class TirbalLauncher {
 		tirbal.init();
 		
 		//
-		logger.info(String.format("Write to output file '%s' ...", outputFilePath));
-		ResultsOutputWriter resultsOutputWriter = new ResultsOutputWriter(outputFilePath, tirbal.getLadders());
-		//
-		resultsOutputWriter.writeModelInfo();
+		if (outputFilePath != null) {
+			logger.info(String.format("Write to output file '%s' ...", outputFilePath));
+			ResultsOutputWriter resultsOutputWriter = new ResultsOutputWriter(outputFilePath, tirbal.getLadders());
+			//
+			resultsOutputWriter.writeModelInfo();
+		}
 	}
 }

@@ -78,6 +78,8 @@ public class ResultsOutputWriter {
 				} else {
 					Files.write(path, strToBytes);
 				}
+				
+				idx++;
 			} catch (IOException e) {
 				logger.error("Could not serialize ladder ID " + ladder.getId());
 				throw e;
