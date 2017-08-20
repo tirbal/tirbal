@@ -23,8 +23,11 @@ input score file needs to be .csv and formatted as described below:
 team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2
 
 Ex:
+
 Jobi,Joba,10,1,Harry,Dawg
+
 Marc,Samantha,0,10,MrSunshine,Dawg
+
 [...]
  
 ## History
