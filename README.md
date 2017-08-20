@@ -59,7 +59,7 @@ Marc,Marc,2,10,MrSunshine,,
 
 MrSunshine,MrSunshine,10,2,Marc,Marc
 
-### Record accepted
+### Records accepted
  
 In order for a record to be accepted:
 * match must be 1v1 or 2v2. 1v2 records will be discarded.
