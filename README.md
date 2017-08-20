@@ -37,7 +37,7 @@ Jobi,Joba,10,1,Harry,Dawg
 
 Harry,Dawg,1,10,Joba,Jobi
 
-Marc,,2,10,MrSunshine,,
+Marc,Marc,2,10,MrSunshine,MrSunshine
 
 [...]
 
@@ -53,11 +53,12 @@ Harry,Dawg,1,10,Joba,Jobi
 Also note that for 1 player team, multiple syntaxes are accepted.
 Hence the 3 following lines are equivalent :
 
+MrSunshine,MrSunshine,10,2,Marc,Marc
+
 Marc,,2,10,MrSunshine,,
 
-Marc,Marc,2,10,MrSunshine,,
+Marc,,2,10,MrSunshine,MrSunshine
 
-MrSunshine,MrSunshine,10,2,Marc,Marc
 
 ### Records accepted
  
