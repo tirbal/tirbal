@@ -30,7 +30,7 @@ Every record - 1v1 and 2v2 - must be formatted as described below:
 **team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2**
 
 
-Example:
+Example of valid input file:
 
 Jobi,Joba,10,1,Harry,Dawg
 
