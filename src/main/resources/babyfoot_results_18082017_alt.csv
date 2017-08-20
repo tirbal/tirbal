@@ -1,0 +1,52 @@
+Team 1,,Score,,Team 2,,,Winners,,Loosers,
+Joueur 1,Joueur 2,,,Joueur 1,Joueur 2,,,,,
+Maxime,Louis,10,1,Ali,Thierry,,Maxime,Louis,Ali,Thierry
+Maxime,Louis,10,5,Thierry,Alex,,Maxime,Louis,Thierry,Alex
+Maxime,Ali,10,6,Louis,Alex,,Maxime,Ali,Louis,Alex
+Alex,Thierry,10,0,Ali,Michel,,Alex,Thierry,Ali,Michel
+Alex,Muriel,10,7,Ali,Thierry,,Alex,Muriel,Ali,Thierry
+Alex,Muriel,9,10,Ali,Thierry,,Ali,Thierry,Alex,Muriel
+Thierry,Louis,10,9,Ali,Maxime,,Thierry,Louis,Ali,Maxime
+Thierry,Louis,10,4,Ali,Maxime,,Thierry,Louis,Ali,Maxime
+Alex,Tianyu,5,10,Ali,Thierry,,Ali,Thierry,Alex,Tianyu
+Alex,Ali,10,5,Thierry,Tianyu,,Alex,Ali,Thierry,Tianyu
+Alex,Thierry,10,2,Ali,Tianyu,,Alex,Thierry,Ali,Tianyu
+Alex,Ali,10,7,Thierry,Quang,,Alex,Ali,Thierry,Quang
+Alex,Thierry,10,3,Ali,Quang,,Alex,Thierry,Ali,Quang
+Alex,Quang,7,10,Ali,Thierry,,Ali,Thierry,Alex,Quang
+Alex,,9,10,Ali,Thierry,,Ali,Thierry,Alex,
+Alex,Ali,10,7,Michel,Thierry,,Alex,Ali,Michel,Thierry
+Alex,Ali,8,10,Michel,Thierry,,Michel,Thierry,Alex,Ali
+Alex,Alex D,10,6,Ali,Michel,,Alex,Alex D,Ali,Michel
+Alex,Alex D,10,8,Ali,Michel,,Alex,Alex D,Ali,Michel
+Alex,Quang,2,10,Thierry,Ali,,Thierry,Ali,Alex,Quang
+Thierry,Quang,7,10,Ali,Alex,,Ali,Alex,Thierry,Quang
+Thierry,Alex,10,1,Ali,Quang,,Thierry,Alex,Ali,Quang
+Thierry,Alex,10,2,Michel,Ali,,Thierry,Alex,Michel,Ali
+Thierry,Michel,9,10,Alex,Ali,,Alex,Ali,Thierry,Michel
+Thierry,Alex,10,7,Michel,Ali,,Thierry,Alex,Michel,Ali
+Alex,,10,9,Michel,Ali,,Alex,,Michel,Ali
+Alex,Ali,6,10,Thierry,Michel,,Thierry,Michel,Alex,Ali
+Alex,Thierry,10,8,Ali,Michel,,Alex,Thierry,Ali,Michel
+Alex,Michel,10,6,Thierry,Ali,,Alex,Michel,Thierry,Ali
+,Alex,9,10,Thierry,,,Thierry,,,Alex
+Alex,Quang,10,6,Thierry,Louis,,Alex,Quang,Thierry,Louis
+Alex,Thierry,8,10,Michel,Louis,,Michel,Louis,Alex,Thierry
+Alex,Thierry,6,10,Michel,Louis,,Michel,Louis,Alex,Thierry
+Alex,Louis,10,9,Michel,Thierry,,Alex,Louis,Michel,Thierry
+Alex,Michel,10,6,Louis,Michel,,Alex,Michel,Louis,Michel
+Alex,Michel,8,10,Louis,Michel,,Louis,Michel,Alex,Michel
+Thierry,,10,4,Michel,,,Thierry,,Michel,
+Thierry,,10,8,Alex,,,Thierry,,Michel,
+Thierry,Maxime,10,4,Ali,Michel,,Thierry,,Michel,
+Thierry,Quang,10,4,Ali,Michel,,Thierry,,Michel,
+Thierry,Quang,10,4,Ali,Michel,,Thierry,,Michel,
+Thierry,Quang,10,4,Ali,Michel,,Thierry,,Michel,
+Thierry,Louis,10,4,Maxime,Michel,,Thierry,,Michel,
+Alex,,10,0,Thierry,,,Thierry,,Michel,
+Thierry,Ali,10,8,Alex,Michel,,Thierry,,Michel,
+Thierry,Louis,10,8,Alex,Michel,,Thierry,,Michel,
+Thierry,Quang,10,8,Alex,Michel,,Thierry,,Michel,
+Thierry,Quang,10,8,Alex,Michel,,Thierry,,Michel,
+Thierry,Louis,9,10,Michel,Alex,,Michel,Alex,Thierry,Louis
+Thierry,Louis,8,10,Michel,Alex,,Michel,Alex,Thierry,Louis
