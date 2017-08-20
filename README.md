@@ -18,7 +18,8 @@ It is based on :
 
 ## Input file formats accepted
 
-input score file needs to be .csv and contains records formatted as described below:
+Input score file format must be .csv.
+It must contains records formatted as described below:
 
 team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2
 
