@@ -27,7 +27,7 @@ It must contains a chronological series of team vs team results records.
 
 Every record - 1v1 and 2v2 - must be formatted as described below:
 
-team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2
+**team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2**
 
 Example:
 
