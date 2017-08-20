@@ -34,9 +34,9 @@ Marc,Marc,2,10,MrSunshine,,
 
 Marc,Marc,2,10,MrSunshine,MrSunshine,
 
-(last 3 lines are equivalent)
-
 [...]
+
+NB : last 3 lines of the example are equivalent
 
 ## Record accepted
  
