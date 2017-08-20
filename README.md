@@ -36,13 +36,7 @@ Jobi,Joba,10,1,Harry,Dawg
 
 Harry,Dawg,1,10,Joba,Jobi
 
-Marc,Samantha,0,10,MrSunshine,Dawg
-
 Marc,,2,10,MrSunshine,,
-
-Marc,Marc,2,10,MrSunshine,,
-
-MrSunshine,MrSunshine,10,2,Marc,Marc
 
 [...]
 
