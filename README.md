@@ -20,7 +20,8 @@ It is based on :
 
 Input score file format must be .csv
 
-It must contains a chronological series of team vs team results records.
+It must only contains a chronological series of team vs team results records.
+Each team vs team result record is described in one-line.
 
 
 ### Records details
