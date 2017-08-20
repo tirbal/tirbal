@@ -89,12 +89,15 @@ public class Ladder extends IdentifiableObject {
 	 */
 	public void init() {
 		// filter match results
-		// if superior to zero
 		this.filterMatchResults();
-		this.calculateTeamsElo();
-		this.initTeams();
-		this.initPlayers();
-		this.guessIndividualPlayerElo();
+		
+		//
+		if (this.matchResults.size() > 0) {
+			this.calculateTeamsElo();
+			this.initTeams();
+			this.initPlayers();
+			this.guessIndividualPlayerElo();
+		}
 	}
 
 	/**

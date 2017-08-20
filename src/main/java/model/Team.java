@@ -108,7 +108,11 @@ public class Team extends IdentifiableObject implements Comparable<Team> {
 	 * 
 	 */
 	public String toString() {
-		return String.format("%s & %s [Elo %d] - Played matchs : %d", player1, player2, currentElo, nbMatchs);
+		if (currentElo != 0) {
+			return String.format("%s & %s [Elo %d] - Played matchs : %d", player1, player2, currentElo, nbMatchs);
+		} else {
+			return String.format("%s & %s - Played matchs : %d", player1, player2, nbMatchs);
+		}
 	}
 
 	/**
