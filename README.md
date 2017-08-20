@@ -1,7 +1,7 @@
 # Tirbal
  
 Tirbal is a table football rating algorithm. 
-Though it could be used for any score-based 2v2 team game.
+Though it could be used for any score-based 1v1 & 2v2 team game.
 
 It is based on : 
 * a (custom) variation of the classical ELO algorithm implementation
@@ -16,18 +16,24 @@ It is based on :
  
 `java -jar target/tirbal-1.0-exec.jar --help`
 
-## Input file formats accepted
+## Input file description
 
 Input score file format must be .csv
 
-It must contains a series of 1v1 and 2v2 records.
-Each record must be formatted as described below:
+It must contains a chronological series of team vs team results records.
+
+
+### Records details
+
+Every record - 1v1 and 2v2 - must be formatted as described below:
 
 team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2
 
 Example:
 
 Jobi,Joba,10,1,Harry,Dawg
+
+Harry,Dawg,1,10,Joba,Jobi
 
 Marc,Samantha,0,10,MrSunshine,Dawg
 
@@ -39,15 +45,29 @@ MrSunshine,MrSunshine,10,2,Marc,Marc
 
 [...]
 
-NB : last 3 lines of the example are equivalent
+Note that the order of the player within a team doesn't matter.
+Hence the 2 following lines are equivalent :
 
-## Record accepted
+Jobi,Joba,10,1,Harry,Dawg
+
+Harry,Dawg,1,10,Joba,Jobi
+
+Also note that for 1 player team, multiple syntaxes are accepted.
+Hence the 3 following lines are equivalent :
+
+Marc,,2,10,MrSunshine,,
+
+Marc,Marc,2,10,MrSunshine,,
+
+MrSunshine,MrSunshine,10,2,Marc,Marc
+
+### Record accepted
  
 In order for a record to be accepted:
 * match must be 1v1 or 2v2. 1v2 records will be discarded.
 * all record players must have plaid in at least 2 different teams. Any record will be discarded until this condition is met.
 
-Example: admitting a new 2v2 record is being considered. This record will be taken into account if and only if each single player have already played in a 1v1 or in another 2v2 with a different team-mate. 
+Example: admitting a 2v2 record is being considered. This record is taken into account if and only if each single player has also played a 1v1 or another 2v2 with a different team-mate. 
  
 ## History
  
