@@ -45,7 +45,7 @@ public class TirbalLauncher {
 		//
 		Collection<Ladder> ladders = csvParser.extractLadders();
 		//
-		logger.info("Tirbal execution...");
+		logger.info("Tirbal execution ...");
 		Tirbal tirbal = new Tirbal(ladders);
 		tirbal.init();
 		

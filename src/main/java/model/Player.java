@@ -77,6 +77,10 @@ public class Player extends IdentifiableObject implements Comparable<Player> {
 	 */
 	@Override
 	public String toString() {
-		return String.format("%s [Elo %d]", this.getPlayer(), (int) this.getElo());
+		if (this.getElo() != 0) {
+			return String.format("%s [Elo %d]", this.getPlayer(), (int) this.getElo());
+		} else {
+			return String.format("%s - could not estimate Elo", this.getPlayer());
+		}
 	}
 }

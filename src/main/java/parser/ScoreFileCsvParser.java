@@ -31,6 +31,8 @@ public class ScoreFileCsvParser {
 	public String scoreFilePath;
 	//
 	private List<Team> teams;
+	//
+	// filter service
 
 	/**
 	 * 
@@ -47,7 +49,8 @@ public class ScoreFileCsvParser {
 	 */
 	public Collection<Ladder> extractLadders() {
 		Collection<MatchResult> matchResults = this.readMatchResults();
-
+		// filter(matchResults);
+		
 		return buildLadders(matchResults);
 	}
 
@@ -60,7 +63,7 @@ public class ScoreFileCsvParser {
 		List<MatchResult> matchResults = new ArrayList<MatchResult>();
 
 		//
-		try (CSVReader reader = new CSVReader(new FileReader(this.scoreFilePath), ',', '\'', 2)) {
+		try (CSVReader reader = new CSVReader(new FileReader(this.scoreFilePath), ',', '\'', 0)) {
 			// read line by line
 			String[] record = null;
 
@@ -188,7 +191,7 @@ public class ScoreFileCsvParser {
 	 * @return
 	 */
 	private boolean isDataLine(String[] record) {
-		return record[0] != "Team 1" && record[0] != "Joueur 1" && record.length >= 6;
+		return !record[0].equals("Team 1") && !record[0].equals("Joueur 1") && record.length >= 6;
 	}
 
 	/**

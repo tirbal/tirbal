@@ -56,6 +56,7 @@ public class EloIndividualResolver {
 
 		RealVector constants = new ArrayRealVector(teamsElo, false);
 		RealVector solution = solver.solve(constants);
+		logger.debug(String.format("Individual Elo solution %s", solution.toString()));
 
 		return solution;
 	}

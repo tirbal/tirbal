@@ -29,6 +29,12 @@ Jobi,Joba,10,1,Harry,Dawg
 Marc,Samantha,0,10,MrSunshine,Dawg
 
 [...]
+
+## Record accepted
+ 
+In order for a record to be accepted:
+* match must be 1v1 or 2v2. 1v2 record will be discarded.
+* all players must have plaid in at least 2 different teams. In other words, each players needs to have plaid in 2 different duo, or in 1 duo + 1 solo match. Otherwise the record will be discarded.
  
 ## History
  

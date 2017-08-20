@@ -11,6 +11,7 @@ import org.apache.commons.math3.linear.SingularMatrixException;
 import org.apache.log4j.Logger;
 
 import main.java.elo.EloService;
+import main.java.filter.FilterMatchResultsService;
 
 /**
  * 
@@ -29,6 +30,8 @@ public class Ladder extends IdentifiableObject {
 	private Set<Player> players;
 	//
 	private EloService eloService = new EloService();
+	//
+	private FilterMatchResultsService filterMatchResultsService = new FilterMatchResultsService();
 
 	/**
 	 * 
@@ -85,6 +88,9 @@ public class Ladder extends IdentifiableObject {
 	 * 
 	 */
 	public void init() {
+		// filter match results
+		// if superior to zero
+		this.filterMatchResults();
 		this.calculateTeamsElo();
 		this.initTeams();
 		this.initPlayers();
@@ -96,6 +102,13 @@ public class Ladder extends IdentifiableObject {
 	 */
 	private void calculateTeamsElo() {
 		this.eloService.calculateTeamsElo(matchResults);
+	}
+
+	/**
+	 * 
+	 */
+	private void filterMatchResults() {
+		matchResults = this.filterMatchResultsService.filterMatchResults(matchResults);
 	}
 
 	/**
@@ -146,8 +159,14 @@ public class Ladder extends IdentifiableObject {
 		try {
 			this.eloService.guessIndividualPlayerElo(teams, players);
 		} catch (SingularMatrixException ex) {
-			logger.error("No individual ELO could be computed for the ladder because it is too small");
-			logger.error(ex.getMessage());
+			// TODO : change the way ladders are build so that this error happens EXTREMLY
+			// infrequently
+			logger.error("-------------------------------------------------------------\n");
+			logger.error("------------------------!BEWARE!-----------------------------\n");
+			logger.error(
+					"No individual ELO could be computed for this ladder. Remove match results where each player didn't play in at least 2 different teams.");
+			logger.error("Technical reason why individual ELO could not be computed : " + ex.getMessage());
+			logger.error("-------------------------------------------------------------\n");
 		}
 	}
 
