@@ -14,7 +14,7 @@ It is based on :
  
 ## Usage
  
-`java -jar tirbal-1.0-exec.jar --help`
+`java -jar target/tirbal-1.0-exec.jar --help`
 
 ## Input file formats accepted
 
