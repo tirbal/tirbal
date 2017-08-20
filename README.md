@@ -29,6 +29,7 @@ Every record - 1v1 and 2v2 - must be formatted as described below:
 
 **team1Player1,team1Player2,scoreTeam1,scoreTeam2,team2Player1,team2Player2**
 
+
 Example:
 
 Jobi,Joba,10,1,Harry,Dawg
@@ -44,6 +45,8 @@ Marc,Marc,2,10,MrSunshine,,
 MrSunshine,MrSunshine,10,2,Marc,Marc
 
 [...]
+
+-----------------------------------------------------------------------------
 
 Note that the order of the player within a team doesn't matter.
 Hence the 2 following lines are equivalent :
