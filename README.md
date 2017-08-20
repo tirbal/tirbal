@@ -43,7 +43,7 @@ Marc,,2,10,MrSunshine,,
 
 ### Records details - Nota Bene
 
-Note that the order of the player within a team doesn't matter.
+Note that the order of the player within a team, as well as the order of the team, don't matter.
 Hence the 2 following lines are equivalent :
 
 Jobi,Joba,10,1,Harry,Dawg
