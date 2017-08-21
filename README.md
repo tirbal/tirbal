@@ -7,6 +7,10 @@ It is based on :
 * a (custom) variation of the classical ELO algorithm implementation
 * a (custom) mathematical regression model
 
+
+## Requirements
+
+Java 1.8 & Maven 3
  
 ## Installation
  
