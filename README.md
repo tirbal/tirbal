@@ -10,7 +10,7 @@ It is based on :
 
 ## Requirements
 
-Java 1.8 & Maven 3
+Java 1.8, Maven 3
  
 ## Installation
  
