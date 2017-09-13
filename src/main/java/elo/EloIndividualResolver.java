@@ -21,6 +21,8 @@ import main.java.model.Team;
 public class EloIndividualResolver {
 	//
 	final static Logger logger = Logger.getLogger(EloIndividualResolver.class);
+	//
+	final double logitFactor = 5.0;
 
 	/**
 	 * 
@@ -86,10 +88,10 @@ public class EloIndividualResolver {
 	}
 
 	/**
-	 * So the mean square diff (x^2) is not TOO impacted by the number of matchs
-	 * (see ln(x^2))
+	 * logit * ln(x)
+	 * 
 	 */
 	private double getNbMatchFactor(int matchNb) {
-		return Math.log(1 + matchNb);
+		return (1 / (1 + Math.exp(this.logitFactor - ((1.0 / this.logitFactor) * matchNb)))) * Math.log(1 + matchNb);
 	}
 }
