@@ -22,7 +22,7 @@ public class EloIndividualResolver {
 	//
 	final static Logger logger = Logger.getLogger(EloIndividualResolver.class);
 	//
-	final double logitFactor = 5.0;
+	final double logitFactor = 4.0;
 
 	/**
 	 * 
