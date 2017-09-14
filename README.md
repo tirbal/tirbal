@@ -18,7 +18,7 @@ Java 1.8, Maven 3
  
 ## Usage
  
-`java -jar target/tirbal-1.0-exec.jar --help`
+`java -jar target/tirbal-1.1-exec.jar --help`
 
 ## Input file description
 
